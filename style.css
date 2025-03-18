@@ -412,3 +412,407 @@ html,body{
     y: -120%;
 
  }
+
+@media(max-width:600px){
+    #main{
+        background-color: #C0B9AF;
+        position: relative;
+        overflow-x: hidden;
+    }
+    #nav{
+        height: 65px;
+        background-color: #C0B9AF;
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0px 10px;
+        border-bottom: 1px solid #0a090966;
+    }
+    #nav h4{
+        font-family: editorial;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    #nav img{
+        height: 18.5px;
+    }
+    #page1{
+        min-height: 280vw;
+        width: 100%;
+        background-color: #C0B9AF;
+    }
+    #elems{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #elem1{
+        height: 100%;
+        width: 100%;
+    }
+    #elem2{
+        height: 100%;
+        width: 100%;
+    }
+    #elem3{
+        height: 100%;
+        width: 100%;
+    }
+    #elem1 #img-div{
+        height: 55%;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+    #elem3 #image-div{
+        height: 55%;
+        width: 100%;
+        overflow: hidden;
+    }
+    #img-div img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all ease 0.4s;
+    }
+    #image-div img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid black;
+        transition: all ease 0.4s;
+    }
+    #elem2{
+        text-align: center;
+        padding-top: 20px;
+        border-left: 1px solid #0a090966;
+        border-right:  1px solid #0a090966;
+    }
+    #elem2 h1{
+        font-family: canopee;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    #elem2 h2{
+        margin-top: 10px;
+        font-family: editorial;
+        font-size: 33px;
+        font-weight: 100;
+    }
+    #elem2 h5{
+        margin-top: 18px;
+        font-family: editorial;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #elem2 h5 span{
+      font-family:canopee ;
+      font-size: 17px;
+    }
+    #elem1 h4,#elem3 h4{
+        font-family: canopee;
+        font-weight:300;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #elem1 p,#elem3 p{
+        font-family: editorial;
+        font-weight:300;
+        margin-top: 10px;
+    }
+    #elem1 h4 span,#elem3 h4 span{
+        font-family: domaine;
+        margin-top: 0px;
+        padding: 2px 2px;
+        border-radius: 10%;
+        background-color: #B93C12;
+        font-size: 15px;
+        color: #C6BEB5;
+    }
+    #image-div:hover img{
+        scale: 1.1;
+    }
+    #img-div:hover img{
+        scale: 1.1;
+    }
+    #font-div{
+        margin-top: 20px;
+        height: 130px;
+        width: 96%;
+        background-color: #1B1B19;
+        left: 10%;
+        transform: translate(2%,0%);
+        text-align: center;
+    }
+    #font-div h1{
+        color: #C6BEB5;
+        font-weight: 400;
+        letter-spacing: 0px;
+        font-size: 33.5vw;
+        font-family:canopee;
+    }
+    #best-part{
+        margin-top: 5vw;
+        height: 165vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #best-part1{
+        height: 165vh;
+        width: 100%;
+        border-right: 1px #0a090966;
+    }
+    #best-part1 h1{
+        font-family: canopee;
+        line-height: 100px;
+        font-size: 160px;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #best-part1 h1 span{
+        font-size: 80px;
+    }
+    #best-part1 #last-child{
+        margin-top: 30px;
+        margin-left: 32px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #best-part1 h3{
+        font-size: 70px;
+        font-family: canopee;
+    }
+    #best-part1 h4 {
+        font-size: 20px;
+        font-weight: 200;
+        font-family: editorial;
+    }
+    #best-part1 #img-div2{
+        height:450px;
+        margin-top: 25px;
+        width: 80%;
+        margin-left: 9%;
+        overflow: hidden;
+    }
+    #img-div2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid black;
+    }
+    #best-part2{
+        min-height: 165vh;
+        width: 100%;
+    }
+    #best-part2 #img-div3{
+        height: 300px;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+        overflow: hidden;
+    }
+    #img-div3 img{
+        height:100%;
+        width:100%;
+        object-fit: cover;
+    }
+    #best-part2 h1{
+        color:#1B1B19;
+        text-decoration: line-through;
+        text-decoration-thickness:1px ;
+        line-height: 40px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        padding-left: 30px;
+        text-transform: uppercase;
+        font-family: domaine;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #page2{
+        margin-top: 80vh;
+        min-height: 75vh;
+        width: 100%;
+        background-color: #C0B9AF;
+    }
+    #page2 #fontpart-1{
+        justify-content: space-between;
+        padding: 0px 20px;
+        display: flex;
+        gap:30px;
+        flex-direction: column;
+        align-items: center;
+        height:300px;
+        width:100%;
+    }
+    #fontpart-1 h1{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family:canopee;
+        font-size: 120px;
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        padding: 0px 10px;
+        height: fit-content;
+    
+    }
+    #fontpart-1 img{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+    }
+    #page3{
+        min-height: 150vh;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #C0B9AF;
+        border-bottom: 1px solid black;
+    }
+    #page3 #div1{
+        height: 160vh;
+        width: 100%;
+        border-right: 1px solid black;
+    }
+    #page3 #div2{
+        margin-top: 100px;
+        padding: 0px 30px;
+        height: 100vh;
+        width: 100%;
+    }
+    #div1 #content{
+        height: 40%;
+        width: 100%;
+    }
+    #content1{
+        margin-left: 20px;
+        height: 50%;
+        width: 100%;
+        border-right: 1px solid black;
+    }
+    #content2{
+        height: 100%;
+        width: 100%;
+    }
+    #content2 h3,h4{
+        margin:5px 30px;
+    }
+    #content2 h3{
+        font-family: domaine;
+        text-transform: uppercase;
+        font-size: 27px;
+        letter-spacing: -1px;
+        font-weight: 400;
+    }
+    #content2 h4{
+        font-family: editorial;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    #content2 #content-img{
+        height: 20%;
+        width: 100%;
+        overflow: hidden;
+    }
+    #content-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all ease 0.4s;
+    }
+    #content-img img:hover{
+        scale: 1.1;
+    }
+    #content1 h1{
+        font-family: domaine;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: -3px;
+        word-spacing: 2px;
+    }
+    #content1 h2{
+        font-family: editorial;
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+    #content1 h3{
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: editorial;
+        font-weight: 100;
+    }
+    #content1 h3 span{
+     font-family: canopee;
+    
+    }
+    #page3 #main-img{
+        margin-top: 5%;
+        margin-left: 3%;
+        height: 520px;
+        width: 94%;
+        overflow: hidden;
+    }
+    #main-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+     #div2 h1{
+        font-family: canopee;
+        font-size: 50px;
+        text-decoration: line-through;
+        text-decoration-thickness: 1px;
+        font-weight: 300;
+        line-height: 100px;
+     }
+     #div2 h1 span{
+        font-family: canopee;
+        font-size: 140px;
+        font-weight: 300;
+     } 
+     #div2 h4{
+        font-family: editorial;
+        font-size: 20px;
+        font-weight: 100;
+     }
+     #div2 h4 span{
+        font-family: donaine;
+        font-size: 60px;
+        font-weight: 100;
+     }
+     #div2 #circle{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        border: 1px solid black;
+        width: 300px;
+        flex-wrap: nowrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius:50%;
+     }
+     #circle h2{
+        text-align: center;
+        font-family: canopee;
+        font-size: 70px;
+        font-weight: 500;
+        letter-spacing: -3px;
+     }
+     #circle h2 :hover{
+        y: -120%;
+    
+     }
+}
+
