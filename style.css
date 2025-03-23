@@ -98,8 +98,10 @@ html,body{
 }
 #elem2 h1{
     font-family: canopee;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 53px;
+    letter-spacing: -3px;
+    word-spacing: -2px;
+    font-weight: 550;
 }
 #elem2 h2{
     margin-top: 10px;
@@ -273,7 +275,6 @@ html,body{
     width:100%;
     display: flex;
     background-color: #C0B9AF;
-    border-bottom: 1px solid black;
 }
 #page3 #div1{
     height: 150vh;
@@ -412,6 +413,64 @@ html,body{
     y: -120%;
 
  }
+
+ #page4{
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #C0B9AF;
+}
+#page4 #small-div{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 2vw;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    background-color: #C0B9AF;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0vw 2vw;
+}
+#award1{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+#award2{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+#award3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#award4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#small-div h2{
+    text-transform: uppercase;
+    font-family: editorial;
+}
+#small-div h1{
+    text-transform: uppercase;
+    font-family: editorial;
+    font-size: 110px;
+    text-align: center;
+    font-weight: 300;
+}
+#small-div span{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: canopee;
+}
 
 @media(max-width:600px){
     #main{
@@ -609,7 +668,7 @@ html,body{
         border: 1px solid black;
     }
     #best-part2{
-        min-height: 165vh;
+        min-height: 100vh;
         width: 100%;
     }
     #best-part2 #img-div3{
@@ -638,8 +697,8 @@ html,body{
         font-weight: 600;
     }
     #page2{
-        margin-top: 80vh;
-        min-height: 75vh;
+        margin-top: 20vh;
+        min-height: 40vh;
         width: 100%;
         background-color: #C0B9AF;
     }
@@ -671,7 +730,7 @@ html,body{
         object-fit: cover;
     }
     #page3{
-        min-height: 150vh;
+        min-height: 190vh;
         width:100%;
         display: flex;
         flex-direction: column;
@@ -814,5 +873,67 @@ html,body{
         y: -120%;
     
      }
+     #page4{
+        min-height: 2vh;
+        width:100%;
+        display: none;
+        display: flex;
+        flex-direction: column;
+        background-color: #C0B9AF;
+    }
+    #page4 #small-div{
+        margin-top: 2vw;
+        height: 180px;
+        display: none;
+        width: 100%;
+        text-align: center;
+        background-color: #C0B9AF;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 0vw 2vw;
+    }
+    #award1{
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        display: none;
+    }
+    #award2{
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        display: none;
+    }
+    #award3{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        display: none;
+    }
+    #award4{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        display: none;
+    }
+    #small-div h2{
+        text-transform: uppercase;
+        font-family: editorial;
+        font-size: 20px;
+    }
+    #small-div h1{
+        text-transform: uppercase;
+        font-family: editorial;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 300;
+    }
+    #small-div span{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: canopee;
+    }
 }
 
